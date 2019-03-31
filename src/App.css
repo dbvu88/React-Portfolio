@@ -1,0 +1,19 @@
+.App {
+  position: relative;
+}
+
+.menu {
+  --menu-width: 150px;
+  position: absolute;
+  top: 0px;
+  left: -100%;
+  transition: all 0.5s;
+  bottom: 0px;
+  background-color: var(--green);
+  width: var(--menu-width);
+}
+
+.menu-active {
+  left: 0px;
+  transition: all 0.5s;
+}

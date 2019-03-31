@@ -1,0 +1,23 @@
+nav {
+    background: var(--pink);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    /* max-width: 500px; */
+    margin-right: 10px;
+}
+
+.search-box input {
+    max-width: 300px; 
+    background: var(--beige);
+    border: solid var(--black) 2px;
+    color: var(--black);
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+    
