@@ -69,7 +69,7 @@ table {
   --black: #3f3931;
   --shadow:  #6d7973;
   --green: #b2b2a2;
-  --border: solid var(--black) 3px;
+  --border: solid var(--black) 2px;
   background-color: var(--beige);
 }
 

@@ -5,6 +5,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
+    border-bottom: var(--border);
+
 }
 
 .search-box {
@@ -15,7 +18,7 @@ nav {
 .search-box input {
     max-width: 300px; 
     background: var(--beige);
-    border: solid var(--black) 2px;
+    border: var(--border);
     color: var(--black);
     font-size: 1.2em;
     padding: 5px 10px;

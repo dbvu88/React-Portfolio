@@ -1,11 +1,12 @@
 button {
     transform: scale(0.8);
-    background: var(--pink);
+    background: var(--green);
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border: var(--border);
     width: 50px;
     height: 50px;
     margin: 0px;
@@ -36,11 +37,11 @@ button:hover .bar-center {
 }
 
 .menu-btn-active .bar-top {
-    transform: translateY(calc(200% + 2px)) rotate(45deg);
+    transform: translateY(calc(210%)) rotate(45deg);
     transition: all 0.25s;
 }
 
 .menu-btn-active .bar-bottom {
-    transform: translateY(calc(-200% - 2px)) rotate(-45deg);
+    transform: translateY(calc(-210%)) rotate(-45deg);
     transition: all 0.25s;
 }
