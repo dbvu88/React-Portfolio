@@ -4,22 +4,14 @@ h3 {
     display: none;
 }
 
-header {
-    line-height: 1;
-    position: relative;
-    background: var(--green);
-    padding: 10px 0px;
-    box-shadow: inset 1px 1px 5px 1px var(--shadow);
-    height: 80px;
-    z-index: -2;
-}
+
 h1, h3 {
     text-align: center;
     padding: 0px 10px;
     color: var(--black);
     font-family: 'Fugaz One', fantasy, 'Franklin Gothic Medium', serif;
-    font-size: 3em;
-    text-shadow: 5px 5px 0px var(--shadow);
+    font-size: 6em;
+    text-shadow: 5px 5px 5px var(--shadow);
     margin: 0px;
 }
 
@@ -28,7 +20,7 @@ h2 {
     text-align: center;
     margin: 0px;
     font-family: 'Damion', 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 3em;
     color: var(--shadow);
     text-decoration: underline;
 }
@@ -36,4 +28,24 @@ h2 {
 .logo {
     position: fixed;
     z-index: -1
+}
+
+header a {
+    margin: 15px;
+    align-self: flex-start;
+    width: 30px;
+    /* color: red; */
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    line-height: 1;
+    position: relative;
+    background: var(--green);
+    padding: 10px 0px;
+    box-shadow: inset 15px 15px 50px 5px var(--shadow);
+    height: 600px;
+    z-index: -1;
 }

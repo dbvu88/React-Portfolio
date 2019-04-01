@@ -12,6 +12,7 @@ const Navigation = props => {
             </button>
 
             <span className="search-box">
+                <span>&#128269;</span>
                 <input type="search"
                 placeholder="search"
                 name="search"/>
