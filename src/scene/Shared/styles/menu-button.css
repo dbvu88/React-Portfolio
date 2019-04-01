@@ -28,7 +28,7 @@ button {
 
 button:hover .bar-center {
     width: 30px;
-    transition: width 0.25s;
+    transition: width 0.1s;
 }
 
 .menu-btn-active .bar-center {

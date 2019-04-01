@@ -23,4 +23,19 @@ nav {
     font-size: 1.2em;
     padding: 5px 10px;
 }
+
+
+
+::placeholder {
+    color: var(--black);
+}
     
+
+::-webkit-search-cancel-button {
+    color: var(--black);
+}
+
+
+::-ms-clear {
+    color: var(--black);
+}

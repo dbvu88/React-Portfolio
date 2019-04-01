@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+
+.menu {
+    list-style: none;
+
+    /* --menu-width: 150px; */
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    /* bottom: 0px; */
+    background-color: var(--green);
+    width: var(--menu-width);
+    border-right: var(--border);
+    border-bottom: var(--border);
+  
+}
+  
+.menu-active {
+    left: 0px;
+    transition: all 0.1s;
+}
+
+.menu li {
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: 'Aleo', serif;
+    color: var(--black);
+}
+

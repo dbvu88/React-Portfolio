@@ -74,6 +74,22 @@ table {
 }
 
 
+
+
+.night-mode {
+  --beige: #6d7973;
+  --pink: #3f3931;
+  --black: #e5dace;
+  --shadow:  #b2b2a2;
+  --green: #6d7973;
+  background-color: var(--shadow);
+}
+
+html {
+  --border: solid --black 2px;
+}
+
+
 header {
 	background: var(--pink);
 	display: flex;
