@@ -4,6 +4,15 @@ h3 {
     display: none;
 }
 
+header {
+    line-height: 1;
+    position: relative;
+    background: var(--green);
+    padding: 10px 0px;
+    box-shadow: inset 1px 1px 5px 1px var(--shadow);
+    height: 80px;
+    z-index: -2;
+}
 h1, h3 {
     text-align: center;
     padding: 0px 10px;
@@ -15,6 +24,7 @@ h1, h3 {
 }
 
 h2 {
+    /* position: fixed; */
     text-align: center;
     margin: 0px;
     font-family: 'Damion', 'Times New Roman', Times, serif;
@@ -24,16 +34,6 @@ h2 {
 }
 
 .logo {
-    line-height: 1;
-    position: relative;
-    background: var(--green);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%; 
-    border: var(--border);
-    width: 300px;
-    padding: 10px 0px;
-    margin: 20px;
+    position: fixed;
+    z-index: -1
 }
