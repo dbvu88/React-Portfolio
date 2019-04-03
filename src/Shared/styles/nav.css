@@ -18,20 +18,21 @@ nav {
     max-width: 300px; 
     background: var(--beige);
     border: none;
-    border-bottom:solid var(--shadow) 2px;
+    border:solid var(--black) 2px;
+    padding: 8px 13px;
     color: var(--black);
-    font-size: 21px;
-    padding: 0px 5px;
-    /* box-shadow: inset 0px 0px 1px 1px var(--shadow); */
-
+    font-size: 1.5em;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    border-radius: 13px;
 }
 
 
 
 ::placeholder {
-    color: var(--shadow);
+    color: var(--black);
     font-size: 21px;
-    font-family: serif;
+    font-weight: bold;
 }
     
 

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poiret+One|Fugaz+One|Damion|Sacramento|Lobster|Monoton|Shrikhand');
+
+:root {
+    --beige: #e5dace;
+    --black: #3f3931;
+    --shadow:  #6d7973;
+    --green: #b2b2a2;
+    --border: solid var(--black) 2px;
+  }
+  
+  
+  
+  
+  .night-mode {
+    --beige: #3f3931;
+    --black: #e5dace;
+    --shadow:  #b2b2a2;
+    --green: #6d7973;
+  }
+  
+  html {
+    --border: solid --black 2px;
+    --box-shadow: inset 0px 0px 50px 25px var(--shadow);
+    background: var(--black);
+  }

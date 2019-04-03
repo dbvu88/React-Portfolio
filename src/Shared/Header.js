@@ -19,7 +19,7 @@ const Header = props => {
             
             {/* <h3>Duc Vu</h3> */}
             <span className="logo">
-                <h1>Duc Vu</h1>
+                <h1>D&nbsp;U&nbsp;C&nbsp;&nbsp;V&nbsp;U</h1>
                 <h2>Software Engineer</h2>
             </span>
         </header>

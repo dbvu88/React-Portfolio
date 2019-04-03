@@ -1,20 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css?family=Aleo');
 
 .menu {
     list-style: none;
     box-shadow: 8px 8px 89px 1px var(--shadow);
-
-    /* --menu-width: 150px; */
     position: absolute;
     top: 0px;
     left: -100%;
     transition: all 0.5s;
-    /* bottom: 0px; */
     background-color: var(--beige);
     width: var(--menu-width);
     padding: 55px;
-  
 }
   
 .menu-active {
@@ -26,10 +21,11 @@
 .menu li {
     cursor: pointer;
     /* padding: 15px; */
-    font-size: 21px;
-    font-family: 'Aleo', serif;
+    font-size: 1.5em;
+    font-family: 'Poiret One', serif;
     color: var(--black);
-    text-shadow: 1px 1px 2px var(--shadow);
+    text-shadow: 3px 3px 5px var(--shadow);
+    font-weight: bold;
 
 }
 

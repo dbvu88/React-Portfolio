@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -63,31 +64,7 @@ table {
 	border-spacing: 0;
 }
 
-:root {
-  --color: #e5dace;
-  --beige: #e5dace;
-  --black: #3f3931;
-  --shadow:  #6d7973;
-  --green: #b2b2a2;
-  --border: solid var(--black) 2px;
-}
 
-
-
-
-.night-mode {
-  --color: #b2b2a2;
-  --beige: #3f3931;
-  --black: #e5dace;
-  --shadow:  #b2b2a2;
-  --green: #6d7973;
-}
-
-html {
-  --border: solid --black 2px;
-  --box-shadow: inset 0px 0px 50px 25px var(--shadow);
-  background: var(--beige);
-}
 
 /* 
 header {

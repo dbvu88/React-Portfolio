@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './Shared/styles/shared.css';
 import App from './App';
-import Navigation from './/Shared/Navigation'
-import Header from './/Shared/Header'
+import Navigation from './Shared/Navigation'
+import Header from './Shared/Header'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

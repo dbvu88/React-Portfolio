@@ -1,28 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
-@import url('https://fonts.googleapis.com/css?family=Damion');
+
 h3 {
     display: none;
 }
 
 
-h1, h3 {
+h1 {
+    line-height: 1;
     text-align: center;
     padding: 0px 10px;
     color: var(--black);
-    font-family: 'Fugaz One', fantasy, 'Franklin Gothic Medium', serif;
-    font-size: 6em;
+    font-family: 'Monoton','Fugaz One', serif;
+    font-size: 5em;
     text-shadow: 8px 8px 3px var(--shadow);
     margin: 0px;
 }
 
 h2 {
-    /* position: fixed; */
+    line-height: 2;
     text-align: center;
     margin: 0px;
-    font-family: 'Damion', 'Times New Roman', Times, serif;
+    font-family: 'Lobster', Times, serif;
     font-size: 3em;
     color: var(--shadow);
     text-decoration: underline;
+    text-decoration-style: double;
 }
 
 .logo {
