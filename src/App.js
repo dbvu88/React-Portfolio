@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Portfolio from './scene/Shared/Portfolio'
-import Menu from './scene/Shared/Menu'
+import Portfolio from './Shared/Portfolio'
+import Menu from './Shared/Menu'
 class App extends Component {
 
   constructor() {

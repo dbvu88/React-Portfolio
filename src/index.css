@@ -64,34 +64,34 @@ table {
 }
 
 :root {
+  --color: #e5dace;
   --beige: #e5dace;
-  --pink: #e7baa0;
   --black: #3f3931;
   --shadow:  #6d7973;
   --green: #b2b2a2;
   --border: solid var(--black) 2px;
-  background-color: var(--beige);
 }
 
 
 
 
 .night-mode {
-  --beige: #6d7973;
-  --pink: #3f3931;
+  --color: #b2b2a2;
+  --beige: #3f3931;
   --black: #e5dace;
   --shadow:  #b2b2a2;
   --green: #6d7973;
-  background-color: var(--shadow);
 }
 
 html {
   --border: solid --black 2px;
+  --box-shadow: inset 0px 0px 50px 25px var(--shadow);
+  background: var(--beige);
 }
 
 /* 
 header {
-	background: var(--pink);
+	background: var(--beige);
 	display: flex;
 	justify-content: center;
 	align-items: center;

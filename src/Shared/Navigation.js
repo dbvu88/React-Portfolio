@@ -6,15 +6,12 @@ const Navigation = props => {
     return(
         <nav>
             <button className="menu-btn" onClick={toggleMenu}>
-                <div className="bar bar-top"></div>
-                <div className="bar bar-center"></div>
-                <div className="bar bar-bottom"></div>
+                Menu
             </button>
 
             <span className="search-box">
-                <span>&#128269;</span>
                 <input type="search"
-                placeholder="search"
+                placeholder="Start Typing ..."
                 name="search"/>
             </span>
         

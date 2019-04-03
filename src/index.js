@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Navigation from './scene/Shared/Navigation'
-import Header from './scene/Shared/Header'
+import Navigation from './/Shared/Navigation'
+import Header from './/Shared/Header'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

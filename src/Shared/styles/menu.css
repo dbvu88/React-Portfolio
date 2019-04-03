@@ -3,7 +3,7 @@
 
 .menu {
     list-style: none;
-    box-shadow: 0px 0px 5px 0px var(--shadow);
+    box-shadow: 8px 8px 89px 1px var(--shadow);
 
     /* --menu-width: 150px; */
     position: absolute;
@@ -11,9 +11,9 @@
     left: -100%;
     transition: all 0.5s;
     /* bottom: 0px; */
-    background-color: var(--green);
+    background-color: var(--beige);
     width: var(--menu-width);
-    padding: 50px;
+    padding: 55px;
   
 }
   
@@ -25,11 +25,11 @@
 
 .menu li {
     cursor: pointer;
-    padding: 15px;
-    font-size: 1.5em;
+    /* padding: 15px; */
+    font-size: 21px;
     font-family: 'Aleo', serif;
     color: var(--black);
-    text-shadow: 5px 5px 5px var(--shadow);
+    text-shadow: 1px 1px 2px var(--shadow);
 
 }
 

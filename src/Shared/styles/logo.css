@@ -11,7 +11,7 @@ h1, h3 {
     color: var(--black);
     font-family: 'Fugaz One', fantasy, 'Franklin Gothic Medium', serif;
     font-size: 6em;
-    text-shadow: 5px 5px 5px var(--shadow);
+    text-shadow: 8px 8px 3px var(--shadow);
     margin: 0px;
 }
 
@@ -30,12 +30,6 @@ h2 {
     z-index: -1
 }
 
-header a {
-    margin: 15px;
-    align-self: flex-start;
-    width: 30px;
-    /* color: red; */
-}
 
 header {
 	display: flex;
@@ -44,8 +38,8 @@ header {
     line-height: 1;
     position: relative;
     background: var(--green);
-    padding: 10px 0px;
-    box-shadow: inset 15px 15px 50px 5px var(--shadow);
-    height: 600px;
+    padding: 13px 0px;
+    box-shadow: inset 0px 0px 89px 21px var(--shadow);
+    height: 377px;
     z-index: -1;
 }
