@@ -25,9 +25,12 @@ nav {
     font-family: "Poiret One", sans-serif;
     font-weight: bold;
     border-radius: 13px;
+    margin: 5px 21px;
 }
 
-
+.search-box input:focus {
+    width: 100%;
+}
 
 ::placeholder {
     color: var(--black);

@@ -8,16 +8,11 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Abril Fatface";
-    margin: 0px;
-    
+    font-family: "Merriweather";
+    margin: 5px 21px;
     color: var(--black);
     font-size: 3em;
+    text-shadow: 1px 1px 3px var(--shadow);
+    transition: text-shadow 0.5s;
 }
 
-
-
-.lnr {
-    color: var(--black);
-    font-size: 20px;
-}
