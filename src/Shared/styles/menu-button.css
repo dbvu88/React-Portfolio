@@ -9,10 +9,11 @@ button {
     justify-content: center;
     align-items: center;
     font-family: "Merriweather";
-    margin: 5px 21px;
+    margin: var(--margin);
     color: var(--black);
-    font-size: 3em;
+    font-size: var(--font-size);
     text-shadow: 1px 1px 3px var(--shadow);
     transition: text-shadow 0.5s;
+    padding: 8px 13px;
 }
 

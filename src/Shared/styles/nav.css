@@ -2,40 +2,47 @@ nav {
     background: var(--beige);
     position: sticky;
     top: 0px;
+    bottom: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999;
     /* border-bottom: var(--border); */
     box-shadow: 3px 3px 13px 1px var(--shadow);
+
 }
 
 /* .search-box {
     margin-right: 10px;
 } */
 
-.search-box input {
-    max-width: 300px; 
+input.search-box {
+    width: 10%;
+    min-width: 150px;
     background: var(--beige);
     border: none;
     border:solid var(--black) 2px;
-    padding: 8px 13px;
+    padding: var(--padding);
     color: var(--black);
-    font-size: 1.5em;
+    font-size: var(--font-size);
     font-family: "Poiret One", sans-serif;
     font-weight: bold;
     border-radius: 13px;
-    margin: 5px 21px;
+    margin: var(--margin);
+    align-self: flex-end;
+    transition: width 0.5s;
+
 }
 
-.search-box input:focus {
+input.search-box:focus {
     width: 100%;
+    transition: width 0.5s;
 }
 
 ::placeholder {
-    color: var(--black);
-    font-size: 21px;
+    color: var(--shadow);
     font-weight: bold;
+    font-size: var(--font-size);
 }
     
 

@@ -6,6 +6,9 @@
   --shadow:  #6d7973;
   --green: #b2b2a2;
   --border: solid var(--black) 2px;
+  --font-size: 20px;
+  --padding: 8px 13px;
+  --margin: 5px 21px
 }
   
   
@@ -21,10 +24,15 @@
 html {
   --border: solid --black 2px;
   --box-shadow: inset 0px 0px 50px 25px var(--shadow);
-  background: var(--black);
+  background: var(--beige);
+ 
 }
 
 button:hover, .menu li:hover {
   text-shadow: none;
   transition: all 0.1s;
+}
+
+* {
+  font-size: 1.3em;
 }

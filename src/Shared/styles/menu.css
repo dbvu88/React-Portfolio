@@ -21,10 +21,12 @@
 .menu li {
     cursor: pointer;
     /* padding: 15px; */
-    font-size: 1.5em;
+    margin: var(--margin);
+
+    font-size: var(--font-size);
     font-family: 'Merriweather', serif;
     color: var(--black);
     text-shadow: 1px 1px 3px var(--shadow);
-
+    padding: var(--padding);
 }
 

@@ -6,6 +6,7 @@ const Menu = props => {
         <ul className="menu">
             <li className="toggle-nightmode"
             onClick={toggleNightMode}>Night Mode</li>
+            <li>About Me</li>
         </ul>
     )
 }
