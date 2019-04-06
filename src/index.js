@@ -6,12 +6,15 @@ import App from './App';
 import Navigation from './Shared/Navigation'
 import Header from './Shared/Header'
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
     <div>
         <Header/>
         <Navigation/>
-        <App />
+        <Router>
+            <App />
+        </Router>
     </div>, 
     document.getElementById('root'));
 

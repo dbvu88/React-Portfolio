@@ -19,14 +19,19 @@
 }
 
 .menu li {
+    box-sizing: border-box;
+    width: 150px;
+    height: 70px;
     cursor: pointer;
     /* padding: 15px; */
     margin: var(--margin);
     line-height: 2;
     font-size: var(--font-size);
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: "Poiret One", sans-serif;
     color: var(--black);
     text-shadow: 1px 1px 3px var(--shadow);
     padding: var(--padding);
+    font-weight: bolder;
 }
 

@@ -12,22 +12,18 @@ nav {
 
 }
 
-/* .search-box {
-    margin-right: 10px;
-} */
-
 input.search-box {
     width: 10%;
     min-width: 150px;
     background: var(--beige);
     border: none;
     border:solid var(--black) 2px;
+    border-radius: 13px;
     padding: var(--padding);
     color: var(--black);
     font-size: var(--font-size);
     font-family: "Poiret One", sans-serif;
     font-weight: bold;
-    border-radius: 13px;
     margin: var(--margin);
     align-self: flex-end;
     transition: width 0.5s;

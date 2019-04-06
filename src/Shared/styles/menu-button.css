@@ -7,7 +7,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Merriweather";
+    font-family: "Poiret One", sans-serif;
+    font-weight: bolder;
     margin: var(--margin);
     color: var(--black);
     font-size: var(--font-size);
@@ -15,4 +16,6 @@ button {
     transition: text-shadow 0.5s;
     padding: 8px 13px;
 }
+
+
 

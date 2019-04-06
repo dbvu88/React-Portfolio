@@ -29,8 +29,13 @@ html {
 }
 
 button:hover, .menu li:hover {
+  box-sizing: border-box;
   text-shadow: none;
   transition: all 0.1s;
+  text-align: center;
+  border: none;
+  border:solid var(--black) 2px;
+  border-radius: 13px;  
 }
 
 * {
