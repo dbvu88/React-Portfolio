@@ -2,7 +2,7 @@
 
 .menu {
     list-style: none;
-    box-shadow: 8px 8px 89px 1px var(--shadow);
+    box-shadow: 8px 8px 89px 1px var(--shadower);
     position: absolute;
     top: 0px;
     left: -100%;

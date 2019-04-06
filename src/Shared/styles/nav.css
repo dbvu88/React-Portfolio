@@ -8,7 +8,7 @@ nav {
     align-items: center;
     z-index: 999;
     /* border-bottom: var(--border); */
-    box-shadow: 3px 3px 13px 1px var(--shadow);
+    box-shadow: 3px 3px 13px 1px var(--shadower);
 
 }
 
