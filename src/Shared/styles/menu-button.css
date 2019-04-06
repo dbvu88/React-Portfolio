@@ -1,7 +1,6 @@
 
 button {
     cursor: pointer;
-    /* transform: scale(0.8); */
     background: var(--beige);
     border: none;
     display: flex;

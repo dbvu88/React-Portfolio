@@ -31,7 +31,6 @@ input.search-box {
     margin: var(--margin);
     align-self: flex-end;
     transition: width 0.5s;
-
 }
 
 input.search-box:focus {
